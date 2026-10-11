@@ -1,0 +1,24 @@
+
+name: ronaldo_dice_game
+description: A simple Ronaldo-themed Flutter dice game.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ronaldo_anticipation.png
+    - assets/images/ronaldo_sad.png
+    - assets/images/ronaldo_win.png
